@@ -9,20 +9,22 @@
 </head>
 
 <body>
-    <em>Marzo 12 año 95'</em>
-    <address align="right" class="header">
-        <strong>Sebastian Aguilera</strong><br>
-        <em>Profesor de Programación lll</em><br>
-        <em>ETITC</em><br>
-        <em>Bogotá Dc</em><br>
-        <b>Tel:</b>
-        <em>xxxxxx</em> <br>
-        <b>Email: </b>
-        <em>no_reply@itc.edu.co</em>
-        <hr>
-    </address>
 
     <div class="contenido">
+        <em>Marzo 12 año 95'</em>
+        <address align="right">
+            <strong>Sebastian Aguilera</strong><br>
+            <em>Profesor de Programación lll</em><br>
+            <em>ETITC</em><br>
+            <em>Bogotá Dc</em><br>
+            <b>Tel:</b>
+            <em>xxxxxx</em> <br>
+            <b>Email: </b>
+            <em>no_reply@itc.edu.co</em>
+            <hr>
+        </address>
+
+
 
         <h1>Notificación de inasistencia</h1>
         <p>Cordial saludo mi estimado,</p>
@@ -54,8 +56,7 @@
         <p>Conociendo la situación actual de la universidad respecto al internet, le relaciono una captura de pantalla
             donde se evidencia mi perfil de github y mis repositorios actuales.</p>
 
-        <img src="Carta\Git.JPG"
-            alt="GitHub" width="1000" height="1200" align="center" />
+        <img src="Carta\Git.JPG" alt="GitHub" width="1000" height="1200" align="center" />
 
         <p>Aprecio su comprensión y su consideración en este asunto. Por favor, hágame saber si hay algún material
             adicional que necesite revisar o cualquier otra medida que deba tomar para mitigar el impacto de mi ausencia
@@ -68,30 +69,30 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         <p>Le relaciono un video corto hablando sobre la carrera</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/T5rKgGK_9cY?si=iQkLve6TgcSYrUiK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T5rKgGK_9cY?si=iQkLve6TgcSYrUiK"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
         <p>Gracias por su atención y paciencia. <br>
 
             Atentamente,</p>
-
+        <address align="left">
+            <hr>
+            <strong>Cristian E. Rivera Ardila</strong><br>
+            <hr>
+        </address>
     </div>
-
-    <address align="left">
-        <hr>
-        <strong>Cristian E. Rivera Ardila</strong><br>
-        <hr>
-    </address>
-
-    <div class="form">
+    <div class="form-container">
         <form action="">
-            <p>Por favor confirme el recibido de mi carta:
-                <br />
-                <input type="radio" name="genre" value="y" checked="checked" /> Si
-                <input type="radio" name="genre" value="n" />No <br>
-                <button type="submit">Enviar</button>
-            </p>
+            <p>Por favor confirme el recibido de mi carta:</p>
+            <div class="radio-buttons">
+                <label><input type="radio" name="genre" value="y" checked="checked" /> Si</label>
+                <label><input type="radio" name="genre" value="n" />No</label>
+            </div>
+            <button type="submit" class="submit-btn">Enviar</button>
         </form>
     </div>
-
+    
 </body>
 
 </html>

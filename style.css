@@ -12,4 +12,39 @@ h1{
 
 .contenido{
     text-align: justify;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+}
+
+/*Estilo del contenedor del formulario*/
+.form-container {
+    float: right; /* Alinea el contenedor a la derecha */
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px; /* Espacio alrededor del formulario */
+    margin: 20px; /* Margen exterior del contenedor */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/*Estilo de los botonoes*/
+.radio-buttons {
+    text-align: center; /* Centra los radio buttons */
+    margin-bottom: 10px; /* Espacio inferior entre los radio buttons y el botón de enviar */
+}
+
+/*Estilo de boton enviar*/
+.submit-btn {
+    background-color: #007bff; /* Color azul para el botón */
+    color: #ffffff; /* Texto blanco en el botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/*Animación*/
+.submit-btn:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el cursor */
 }
