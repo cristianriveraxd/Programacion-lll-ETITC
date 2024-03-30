@@ -12,8 +12,9 @@
 <body>
 
     <div class="container">
-        <em>Marzo 12 año 24'</em>
+        <em id="fecha"></em>
         <address align="right" class="addres-container">
+            <strong id="dia">S</strong><br>
             <strong>Sebastian Aguilera</strong><br>
             <em>Profesor de Programación lll</em><br>
             <em>ETITC</em><br>
@@ -90,19 +91,27 @@
             <strong>-Contenido generado con inteligencia artificial</strong><br>
             <hr>
         </address>
+        <div class="form-container">
+            <form action="form-action.html">
+                <p>Esta información te fue de agrado:</p>
+                <div class="radio-buttons">
+                    <label><input type="radio" name="opcion" value="1" checked="checked" /> Si</label>
+                    <label><input type="radio" name="opcion" value="0" /> No</label>
+                </div>
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </div>
+    </div>
 
+    <div class="container-calc">
+        <strong>Sumar numeros</strong>
+        <label for="suma"><input type="text" placeholder="numero 1" id="numero1"></label> 
+        <strong>+</strong>
+        <label for="suma"><input type="text" placeholder="numero 2" id="numero2"></label>
+        <button type="submit" class="submit-btn" onclick="sumarNumeros()">Calcular</button>
     </div>
-    <div class="form-container">
-        <form action="form-action.html">
-            <p>Esta información te fue de agrado:</p>
-            <div class="radio-buttons">
-                <label><input type="radio" name="opcion" value="1" checked="checked" /> Si</label>
-                <label><input type="radio" name="opcion" value="0" /> No</label>
-            </div>
-            <button type="submit" class="submit-btn">Enviar</button>
-        </form>
-    </div>
+    
 
 </body>
-
+<script src="script.js"></script>
 </html>
